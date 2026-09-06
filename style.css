@@ -1,0 +1,119 @@
+ *{
+  box-sizing: border-box;
+  
+}
+body{
+     padding:0;
+     margin:0;
+     background-color:rgb(96, 98, 155);
+}
+nav{
+    background-color:rgb(163, 216, 152);
+    height: 70px;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+}
+ul{
+    text-align:center;
+}
+li{ 
+    list-style:none;
+    display:inline;
+    padding:20px;
+    
+}
+a{text-decoration:none;}
+ul>li>a:hover{color:rgb(253, 4, 4);}
+
+.logo{
+    
+     top: 3%;
+     left: 2%;
+     position: fixed;
+}
+
+.login{ left: 87%;
+    top: 5%;
+    position:fixed;
+}
+
+.robo{
+    
+    height: 250px;
+    position: fixed;
+    top: 120px;
+    left: 70%;
+    float: right;
+    clear: both;
+    border-radius: 10px;
+}
+
+h1{
+    position: fixed;
+    top: 100px;
+    left: 10%;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.wl{
+    position: fixed;
+    top: 200px;
+    left: 25%;
+    font-size: 30px;
+    color: rgb(46, 195, 32);
+}
+
+.ou{
+    position: fixed;
+    top: 250px;
+    left: 20%;
+    font-size: 30px;
+    color: rgb(24, 252, 3);
+}
+p1{
+    position: fixed;
+    top: 320px;
+    left: 10%;
+    font-size: 30px;
+    color: rgb(252, 223, 3);
+}
+p2{
+    position: fixed;
+    top: 380px;
+    left: 10%;
+    font-size: 30px;
+    color: rgb(252, 115, 3);
+}
+
+button {
+    width: 344px;
+    height: 50px;
+    background-image: linear-gradient(to right, rgba(133, 238, 80, 0.829), rgb(133, 115, 80)); 
+    color: rgb(247, 247, 247);
+    position: fixed;
+    top: 480px;
+    left: 10%;
+}
+.book-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.book-btn:hover {
+  background-color: #0056b3;
+}
+
+.book-btn:active {
+  transform: scale(0.98);
+}
+
+   
+
